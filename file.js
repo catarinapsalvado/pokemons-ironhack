@@ -17,7 +17,7 @@ prev.onclick = function prev(){
 }
 
 next.onclick = function next(){
-    if(count > 650 ){
+    if(count < 650 ){
     count = count +1;
     render()    
     }
