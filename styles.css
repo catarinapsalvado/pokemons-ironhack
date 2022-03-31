@@ -1,0 +1,45 @@
+#logo {
+    height: 100px;
+}
+
+#arrow-1 {
+    height: 75px;
+    margin: 10px;
+}
+
+#arrow-2 {
+    height: 75px;
+    transform: scaleX(-1);
+    margin: 10px;
+}
+
+body {
+padding: 30px;
+background: #c21500;  
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
+background: linear-gradient(to right, #ffc500, #c21500); 
+}
+
+#white-square {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.center {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+#poke {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
